@@ -1,0 +1,20 @@
+Windows UKMI-1 volume: 80%
+miniDSP via USB volume: 90%
+REW Pink Random Noise: -15,00 dBFS
+miniDSP, master volume: -5dB
+Sub1.5 gain: +6dB
+Sub1S gain: 6dB
+All settings in miniDSP: Reset/>ero/Default
+
+Sub1S SPL: 100dB
+Active speaker: 72dB
+
+Pos1: Right front, back facing right wall
+Pos2: Right front, back facing front wall
+Pos3: Right of couch, back facing right wall
+Pos4: Right of couch, back facing back wall
+Pos5: Right back, back facing right wall
+Pos6: Right back, back facing back wall
+
+For MSO measurments:
+- miniDSP, master colume: -10dB
