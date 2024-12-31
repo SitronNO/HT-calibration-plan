@@ -108,9 +108,9 @@ By utilizing [Multi Sub Optimizer](https://www.andyc.diy-audio-engineering.org/m
     2. Run a sweep from 10-300Hz in REW, using the active speaker as a acoustic timing reference
     3. Unmute Sub1S, mute Sub1.5
     4. Run a sweep from 10-300Hz in REW, using the active speaker as a acoustic timing reference
-8. In REW, use "A + B" trace arithmetic function to verify the measurments. (Reference in MSO manual)[https://www.andyc.diy-audio-engineering.org/mso/html/reference-manual/getting-started-mso.html]
-9. Follow (Getting started with MSO)[https://www.andyc.diy-audio-engineering.org/mso/html/reference-manual/getting-started-mso.html] until the "Configuration Wizard" is completed.
-10. Follow and copy the steps from Dave Boswell's (Tutorial video for MSO version 2)[https://youtu.be/yrrE6Ygh67Q]
+8. In REW, use "A + B" trace arithmetic function to verify the measurments. [Reference in MSO manual](https://www.andyc.diy-audio-engineering.org/mso/html/reference-manual/getting-started-mso.html)
+9. Follow [Getting started with MSO](https://www.andyc.diy-audio-engineering.org/mso/html/reference-manual/getting-started-mso.html) until the "Configuration Wizard" is completed.
+10. Follow and copy the steps from Dave Boswell's [Tutorial video for MSO version 2](https://youtu.be/yrrE6Ygh67Q)
 
 ### Notes
 
