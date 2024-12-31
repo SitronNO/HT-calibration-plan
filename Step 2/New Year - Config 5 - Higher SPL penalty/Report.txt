@@ -1,0 +1,158 @@
+Filters by channel:
+
+Individual sub channels:
+
+Channel: "Sub 1.5"
+FL1: Delay Block
+Parameter "Delay (msec)" = 9.84084
+This delay value is an intermediate calculation for reference only.
+For final delay values, see "Final gain and delay/distance settings" at end of report.
+
+FL2: All-Pass Second-Order
+Parameter "Freq of 180 deg phase (Hz)" = 107.984
+Parameter "All-pass Q" = 0.3
+
+FL14: Parametric EQ (RBJ)
+Parameter "Center freq (Hz)" = 144.335
+Parameter "Boost (dB)" = -6
+Parameter "Q (RBJ)" = 8.6
+"Classic" Q = 12.1478
+
+FL15: Parametric EQ (RBJ)
+Parameter "Center freq (Hz)" = 35.6827
+Parameter "Boost (dB)" = -2.98881
+Parameter "Q (RBJ)" = 1.39228
+"Classic" Q = 1.65366
+
+FL16: Parametric EQ (RBJ)
+Parameter "Center freq (Hz)" = 75.57
+Parameter "Boost (dB)" = -6
+Parameter "Q (RBJ)" = 6.01224
+"Classic" Q = 8.49251
+
+End Channel: "Sub 1.5"
+
+Channel: "Sub 1S"
+FL3: All-Pass Second-Order
+Parameter "Freq of 180 deg phase (Hz)" = 285.001
+Parameter "All-pass Q" = 0.328263
+
+FL17: Parametric EQ (RBJ)
+Parameter "Center freq (Hz)" = 64.2461
+Parameter "Boost (dB)" = -6
+Parameter "Q (RBJ)" = 8.59998
+"Classic" Q = 12.1478
+
+FL18: Parametric EQ (RBJ)
+Parameter "Center freq (Hz)" = 130.219
+Parameter "Boost (dB)" = -3.18252
+Parameter "Q (RBJ)" = 8.6
+"Classic" Q = 10.3291
+
+FL19: Parametric EQ (RBJ)
+Parameter "Center freq (Hz)" = 60.6494
+Parameter "Boost (dB)" = -6
+Parameter "Q (RBJ)" = 3.22532
+"Classic" Q = 4.55589
+
+End Channel: "Sub 1S"
+
+Individual mains channels:
+
+No mains channels defined
+
+Shared sub channel:
+
+FL4: Parametric EQ (RBJ)
+Parameter "Center freq (Hz)" = 86.318
+Parameter "Boost (dB)" = -10.7473
+Parameter "Q (RBJ)" = 5.71959
+"Classic" Q = 10.6181
+
+FL5: Parametric EQ (RBJ)
+Parameter "Center freq (Hz)" = 20
+Parameter "Boost (dB)" = -12.0556
+Parameter "Q (RBJ)" = 1
+"Classic" Q = 2.00166
+
+FL6: Parametric EQ (RBJ)
+Parameter "Center freq (Hz)" = 99.5708
+Parameter "Boost (dB)" = -7.59444
+Parameter "Q (RBJ)" = 8.6
+"Classic" Q = 13.3156
+
+FL7: Parametric EQ (RBJ)
+Parameter "Center freq (Hz)" = 106.397
+Parameter "Boost (dB)" = -6.5628
+Parameter "Q (RBJ)" = 8.6
+"Classic" Q = 12.5478
+
+FL8: Parametric EQ (RBJ)
+Parameter "Center freq (Hz)" = 34.7256
+Parameter "Boost (dB)" = -4.8842
+Parameter "Q (RBJ)" = 1.9534
+"Classic" Q = 2.58759
+
+FL9: Parametric EQ (RBJ)
+Parameter "Center freq (Hz)" = 171.157
+Parameter "Boost (dB)" = -15
+Parameter "Q (RBJ)" = 3.9759
+"Classic" Q = 9.42835
+
+FL10: Parametric EQ (RBJ)
+Parameter "Center freq (Hz)" = 49.9322
+Parameter "Boost (dB)" = -14.173
+Parameter "Q (RBJ)" = 5.21228
+"Classic" Q = 11.7856
+
+FL11: Parametric EQ (RBJ)
+Parameter "Center freq (Hz)" = 92.032
+Parameter "Boost (dB)" = -6.85977
+Parameter "Q (RBJ)" = 7.37431
+"Classic" Q = 10.945
+
+FL12: Parametric EQ (RBJ)
+Parameter "Center freq (Hz)" = 61.6597
+Parameter "Boost (dB)" = -8.04582
+Parameter "Q (RBJ)" = 3.56092
+"Classic" Q = 5.65857
+
+FL13: Parametric EQ (RBJ)
+Parameter "Center freq (Hz)" = 45.3492
+Parameter "Boost (dB)" = -6.16596
+Parameter "Q (RBJ)" = 2.98365
+"Classic" Q = 4.25498
+
+FL20: Gain Block
+Parameter "Gain (dB)" = 2.7353
+This gain value is an intermediate calculation for reference only.
+For final gain values, see "Final gain and delay/distance settings" at end of report.
+
+End shared sub channel
+
+Shared mains channel:
+
+No filters in this channel.
+
+
+Raw uncorrected gain and delay values:
+--------------------------------------
+These gain and delay values are for reference only.
+For final gain and delay values, see
+"Final gain and delay/distance settings" at end of report.
+Unadjusted gain values of all gain blocks:
+FL20 (shared, gain block) gain: 2.74 dB
+Unadjusted delay values of all delay blocks:
+FL1 (Sub 1.5, delay block) delay: 9.84 msec
+
+Final gain and delay/distance settings:
+---------------------------------------
+Gain settings:
+Sub 1.5 gain: 0.00 dB
+Sub 1S gain: 0.00 dB
+Delay settings:
+Sub 1.5 delay: 9.84 msec
+Sub 1S delay: 0.00 msec
+
+Channel inversions:
+No inversions
