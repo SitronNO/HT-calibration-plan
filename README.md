@@ -1,25 +1,25 @@
 # Home theater calibration
 
-This is a work-in-progress document regarding my upcomming journey to get the
+This is a work-in-progress document regarding my upcoming journey to get the
 most out of my so-called "Home theater".
 
 ## Goal
 
 My home theater is a small room, with an (open) double door into our main
-livingroom. While I am not able to make it a 100% dedicated home theater room, I
-want to make the most out of it, while also makeing it a integrated part of our
-primary livingspace. This means I am limited regarding the placement of
+living room. While I am not able to make it a 100% dedicated home theater room, I
+want to make the most out of it, while also making it a integrated part of our
+primary living space. This means I am limited regarding the placement of
 speakers, couch and subs, in addition to installing sound treatments.
 
 Another goal is to make a good balance of time/effort and result. In other
 words, I want my room to sound really good, but I do not want to spend endless
-hours chacing the near impossible.
+hours chasing the near impossible.
 
 ## Prerequisite
 
 1. Make this document :-)
-2. Read *nathan_h* execllent [reply](https://www.avsforum.com/posts/63725174/) to
-   my post about bass managment
+2. Read *nathan_h* excellent [reply](https://www.avsforum.com/posts/63725174/) to
+   my post about bass management
 3. For each step in this document, write a detailed plan on what to do,
    measurements to preform, and goal of the step.
 
@@ -29,13 +29,13 @@ I have to subwoofers:
 - Arendal Sound 1723 Subwoofer 1S
 - Arendal Sound 1723 Subwoofer 1.5 (Legacy product)
 
-I will abriviate those to Sub1S and Sub1.5 in this document.
+I will abbreviate those to Sub1S and Sub1.5 in this document.
 
 ### Goal
 
 While Sub1S will remain where its located, I will find the optimal placement for
 Sub1.5 so they have a combined frequency response which will have no dips and
-prefebly no peaks.
+preferably no peaks.
 
 ### Plan
 
@@ -52,7 +52,7 @@ prefebly no peaks.
 9. Play sweep for Sub1S from 20-200Hz via REW, using the active speaker as
    acoustic timing reference
 10. Mute/Disable Sub1S/Output 1, unmute/enable Sub1.5/Output 2 in miniDSP
-11. Repate until all possible locations are measured:
+11. Repeat until all possible locations are measured:
     1. Move Sub1.5 to a new location
     2. Note the location and orientation in a document
     3. Play sweep for Sub1.5 from 20-200Hz via REW, using the active speaker as
@@ -66,7 +66,7 @@ prefebly no peaks.
 ### Notes
 
 - Mic (UMIK-1) volume in Windows: 80%
-- Soundcard (miniDSP) volume in Windows: 90%
+- Sound card (miniDSP) volume in Windows: 90%
 - REW Pink Random Noise and volume for sweeps: -15,00 dBFS
 - Master volume in miniDSP control panel (input): -5dB
 - Gain on Arendal Sound Subwoofer 1.5: +6dB (ca)
@@ -98,7 +98,7 @@ Without time alignment, these seems like the best options:
 
 ### Goal
 
-By utilizing [Multi Sub Optimizer](https://www.andyc.diy-audio-engineering.org/mso/html/index.html) and miniDSP I can try to get the best response for both my MLP, and other listening position - while maintainging a high SPL for my subs.
+By utilizing [Multi Sub Optimizer](https://www.andyc.diy-audio-engineering.org/mso/html/index.html) and miniDSP I can try to get the best response for both my MLP, and other listening position - while maintaining a high SPL for my subs.
 
 ### Plan
 
@@ -113,7 +113,7 @@ By utilizing [Multi Sub Optimizer](https://www.andyc.diy-audio-engineering.org/m
     2. Run a sweep from 10-300Hz in REW, using the active speaker as a acoustic timing reference
     3. Unmute Sub1S, mute Sub1.5
     4. Run a sweep from 10-300Hz in REW, using the active speaker as a acoustic timing reference
-8. In REW, use "A + B" trace arithmetic function to verify the measurments. [Reference in MSO manual](https://www.andyc.diy-audio-engineering.org/mso/html/reference-manual/getting-started-mso.html)
+8. In REW, use "A + B" trace arithmetic function to verify the measurements. [Reference in MSO manual](https://www.andyc.diy-audio-engineering.org/mso/html/reference-manual/getting-started-mso.html)
 9. Follow [Getting started with MSO](https://www.andyc.diy-audio-engineering.org/mso/html/reference-manual/getting-started-mso.html) until the "Configuration Wizard" is completed.
 10. Follow and copy the steps from Dave Boswell's [Tutorial video for MSO version 2](https://youtu.be/yrrE6Ygh67Q)
 11. Apply the config from MSO into miniDSP
@@ -123,7 +123,7 @@ By utilizing [Multi Sub Optimizer](https://www.andyc.diy-audio-engineering.org/m
 
 - In MSO, I have called the project "New year"
 - Mic (UMIK-1) volume in Windows: 80%
-- Soundcard (miniDSP) volume in Windows: 90%
+- Sound card (miniDSP) volume in Windows: 90%
 - REW Pink Random Noise and volume for sweeps: -15,00 dBFS
 - Master volume in miniDSP control panel (input): -10dB
 - Gain on Arendal Sound Subwoofer 1.5: +6dB (ca)
