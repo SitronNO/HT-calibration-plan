@@ -78,6 +78,11 @@ With the settings above, the SPL in MLP:
 - Sub1S: 100dB
 - Active speaker: 72dB
 
+### Files
+
+- [20241230 - Best position of Sub1_5.mdat](https://github.com/SitronNO/HT-calibration-plan/blob/main/Step%201/20241230%20-%20Best%20position%20of%20Sub1_5.mdat) - REW Measurements of every position of Sub1.5 from MLP
+- [20241230 - Best position of Sub1_5 - With alignments.mdat](https://github.com/SitronNO/HT-calibration-plan/blob/main/Step%201/20241230%20-%20Best%20position%20of%20Sub1_5%20-%20With%20alignments.mdat) - Same as above, but with some manual REW calculations regarding alignments (time delay) of Sub1.5
+
 ### Conclusion
 
 Without time alignment, these seems like the best options:
@@ -111,9 +116,12 @@ By utilizing [Multi Sub Optimizer](https://www.andyc.diy-audio-engineering.org/m
 8. In REW, use "A + B" trace arithmetic function to verify the measurments. [Reference in MSO manual](https://www.andyc.diy-audio-engineering.org/mso/html/reference-manual/getting-started-mso.html)
 9. Follow [Getting started with MSO](https://www.andyc.diy-audio-engineering.org/mso/html/reference-manual/getting-started-mso.html) until the "Configuration Wizard" is completed.
 10. Follow and copy the steps from Dave Boswell's [Tutorial video for MSO version 2](https://youtu.be/yrrE6Ygh67Q)
+11. Apply the config from MSO into miniDSP
+12. Take measurements to verify which config gives the best response and sound.
 
 ### Notes
 
+- In MSO, I have called the project "New year"
 - Mic (UMIK-1) volume in Windows: 80%
 - Soundcard (miniDSP) volume in Windows: 90%
 - REW Pink Random Noise and volume for sweeps: -15,00 dBFS
@@ -122,6 +130,16 @@ By utilizing [Multi Sub Optimizer](https://www.andyc.diy-audio-engineering.org/m
 - Gain on Arendal Sound Subwoofer 1S: +6.0dB
 - No crossover, PEQ, delay, gain in miniDSP, slot 3 (which is used for measurements)
 (All settings as in step 1, but reduced "Master volume" in miniDSP by 5dB)
+
+### Files
+
+- [20241230 - MSO measurements.mdat](https://github.com/SitronNO/HT-calibration-plan/blob/main/Step%202/20241230%20-%20MSO%20measurements.mdat) - REW measurements for MSO: Sub1S and Sub1.5 individually, from LLP, MLP and RLP.
+- [New year.msop](https://github.com/SitronNO/HT-calibration-plan/blob/main/Step%202/New%20year.msop) - MSO project file with the config and calculations
+- [New Year - Config 4 - Multistage](https://github.com/SitronNO/HT-calibration-plan/tree/main/Step%202/New%20Year%20-%20Config%204%20-%20Multistage) - The filter report from MSO, and Biquads for miniDSP
+- [New Year - Config 5 - Higher SPL penalty](https://github.com/SitronNO/HT-calibration-plan/tree/main/Step%202/New%20Year%20-%20Config%205%20-%20Higher%20SPL%20penalty) - The filter report from MSO, and Biquads for miniDSP
+- [20250104 - After MSO New year config.mdat](https://github.com/SitronNO/HT-calibration-plan/blob/main/Step%202/20250104%20-%20After%20MSO%20New%20year%20config.mdat)
+
+### Conclusion
 
 ## Step 3 - Fronts: Placement and plugged or vented?
 ## Step 4 - Anthem ARC
