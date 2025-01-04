@@ -137,7 +137,7 @@ By utilizing [Multi Sub Optimizer](https://www.andyc.diy-audio-engineering.org/m
 - [New year.msop](https://github.com/SitronNO/HT-calibration-plan/blob/main/Step%202/New%20year.msop) - MSO project file with the config and calculations
 - [New Year - Config 4 - Multistage](https://github.com/SitronNO/HT-calibration-plan/tree/main/Step%202/New%20Year%20-%20Config%204%20-%20Multistage) - The filter report from MSO, and Biquads for miniDSP
 - [New Year - Config 5 - Higher SPL penalty](https://github.com/SitronNO/HT-calibration-plan/tree/main/Step%202/New%20Year%20-%20Config%205%20-%20Higher%20SPL%20penalty) - The filter report from MSO, and Biquads for miniDSP
-- [20250104 - After MSO New year config.mdat](https://github.com/SitronNO/HT-calibration-plan/blob/main/Step%202/20250104%20-%20After%20MSO%20New%20year%20config.mdat)
+- [20250104 - After MSO New year config.mdat](https://github.com/SitronNO/HT-calibration-plan/blob/main/Step%202/20250104%20-%20After%20MSO%20New%20year%20config.mdat) - REW measurments from MLP, LLP and RLP via miniDSP, with MSOs "New Year" config 4 and 5
 
 ### Conclusion
 
